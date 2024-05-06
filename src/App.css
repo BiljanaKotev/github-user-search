@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root,
+.root,
+#root,
+#docs-root {
+  /* light-mode-colors */
+  --primary-light-mode: #2b3442;
+  --secondary-light-mode: #4b6a9b;
+  --tertiary-light-mode: #697c9a;
+  --accent-light-mode: #0079ff;
+
+  /* dark mode colors */
+  --primary-dark-mode: #141d2f;
+  --secondary-dark-mode: #IE2A47;
+  --tertiary-dark-mode: #0079ff;
+  --accent-dark-mode: #0079ff;
+
+  /* bg colors */
+  --primary-bg: #f6f8ff;
+  --secondary-bg: #fefefe;
+}
+
+html {
+  background-color: var(--primary-bg);
+  font-family: 'Space Mono', monospace;
+}
+
+/* header */
+
+.search-btn {
+  background-color: var(--accent-light-mode);
+  color: #fff;
+  padding: 8px 15px;
+}
+
+/* UserInfo */
+
+.userinfo-date {
+  right: 22rem;
+}
